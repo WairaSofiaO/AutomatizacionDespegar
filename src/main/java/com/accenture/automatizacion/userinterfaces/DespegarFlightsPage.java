@@ -15,5 +15,7 @@ public class DespegarFlightsPage {
 	public static final Target RETURN = Target.the("Return").locatedBy("//div[@class='input-container sbox-bind-event-click-end-date']/input[@placeholder='Vuelta']");
 	public static final Target DATE_RETURN = Target.the("DateReturn").locatedBy("//div[@class='_dpmg2--month _dpmg2--o-5 _dpmg2--has-start-range _dpmg2--month-active']//span[26]");
 	public static final Target SEARCH = Target.the("Search").locatedBy("//div[@class='sbox-button -ml3-l -mt5-l']//a[@class='sbox-3-btn -primary -md sbox-search']");
+	public static final Target SELECT_FIRST_FLIGHT = Target.the("SelectFirstFlight").locatedBy("//span[1]//span[1]//cluster[1]//div[1]//div[1]//div[2]//fare[1]//span[1]//span[1]//div[1]//buy-button[1]//a[1]//div[1]");
+	//span[1]//span[1]//cluster[1]//div[1]//div[1]//div[2]//fare[1]//span[1]//span[1]//div[1]//buy-button[1]//a[1]//div[1]
 }
 
